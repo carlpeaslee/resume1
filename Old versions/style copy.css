@@ -1,0 +1,149 @@
+
+ul {
+	margin: 0;
+}
+
+#timeline {
+	position: absolute;
+	width: 20%;
+	left:0;
+	background-color: gray;
+	top: 8em;
+}
+
+#timeline li {
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+li.year {
+	font-size: 2em;
+	text-align: center;
+}
+
+li.month {
+	font-size: 1em;
+	text-align: center;
+}
+
+
+#container {
+	position: absolute;
+	left: 20%;
+	top: 2em;
+	font-family: sans-serif;
+	width: 50%;
+}
+
+
+#top-sec {
+	position: relative;
+	height: 6em;
+	border-bottom: blue thin solid;
+}
+
+#name-art-access ul {
+	padding: 0;
+}
+
+#name-art-access ul li {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+
+#name-art-access li#name {
+	font-size: 3vw;
+	background-color: red;
+}
+
+#name-art-access ul li.art {
+	position: relative;
+	left: 12%;
+	background-color: green;
+	font-size: 2vw;
+
+}
+
+#name-art-access ul li.access {
+	position: relative;
+	left: 25%;
+	background-color: blue;
+	font-size: 2vw;
+}
+
+
+#contact-info ul {
+	padding: 0;
+}
+
+#contact-info ul li {
+	position: relative;
+	background-color: yellow;
+	display: inline;
+	margin-right: 1em;
+	font-size: 1vw;
+}
+
+ul.no-bull li {
+	display: inline;
+}
+
+ul.no-bull {
+	padding: 0;
+}
+
+span.inst {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+span.location {
+	font-style: italic;
+}
+
+ul.no-bull li.focus {
+	display: block;
+	text-indent: 1em;
+}
+
+ul.bullets {
+	display: block;
+	list-style-type: disc;
+}
+
+#mid-sec {
+	position: relative;
+}
+
+.item {
+	padding-top: .75em;
+	padding-bottom: .75em;
+	background-color: white;
+	border-top: blue thin solid;
+	border-bottom:blue thin solid;
+}
+
+.item:hover {
+	background-color: gainsboro;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+#elab {
+	position: absolute;
+	width: 30%;
+	left: 70%;
+	top: 8em;
+}
+
+
+.more {
+	width: 100%;
+	background-color: purple;
+	height: 50em;
+	position: absolute;
+	display: none;
+}
+

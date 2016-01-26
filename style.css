@@ -1,0 +1,182 @@
+
+body {
+	background-color: aliceblue;
+	font-family: sans-serif;
+}
+
+ul {
+	margin: 0;
+}
+
+
+header {
+	position: relative;
+	height: auto;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header h1 {
+	margin: 0;
+}
+
+section {
+	display: inline-block;
+}
+
+.item time {
+	float: right;
+	margin-left: .5em;
+	font-size: .7em;
+}
+
+#left {
+	position: absolute;
+	width: 27.5%;
+	display: inline;
+
+}
+
+#timeline {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+}
+
+#timeline time {
+	position: relative;
+	display: block;
+	float: right;
+	line-height: .75em;
+	font-size: .85em;
+}
+
+#timeline time.year {
+	font-size: 1em;
+	line-height: .9em;
+}
+
+
+#present {
+	margin-bottom: 2em;
+	text-align: right;
+}
+
+
+#middle {
+	position: absolute;
+	width: 45%;
+	left: 27.5%;
+	display: inline;
+}
+
+
+
+#contact-info ul li {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+
+title {
+	font-size: 2em;\
+	display: inline;
+}
+
+#contact-info li {
+	position: relative;
+	display: inline;
+	margin-right: 1em;
+	font-size: .9vw;
+}
+
+ul.no-bull li {
+	display: inline;
+}
+
+ul.no-bull {
+	padding: 0;
+}
+
+span.inst {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+span.location {
+	font-style: italic;
+	font-size: .9em;
+}
+
+ul.no-bull li.focus {
+	display: block;
+	text-indent: 1em;
+}
+
+ul.bullets {
+	display: block;
+	list-style-type: disc;
+}
+
+main {
+	position: relative;
+}
+
+.item {
+	padding: 1%;
+	border-top: blue thin solid;
+	border-bottom:blue thin solid;
+	width: 100%;
+}
+
+.item:hover {
+	background-color: white;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+header:hover {
+	background-color: white;
+}
+
+
+.highlight {
+	background-color: gainsboro;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+.highlight:hover {
+	background-color: gainsboro;
+	border-top: purple thin solid;
+	border-bottom: purple thin solid;
+}
+
+#right {
+	position: absolute;
+	display: inline;
+	left: 75%;
+	width: 25%;
+}
+
+
+.more {
+	width: 100%;
+	background-color: gainsboro;
+	height: 50em;
+	position: absolute;
+	display: none;
+	border-color: purple;
+	border-style: solid;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+#lines {
+	position: absolute;
+	display: none;
+}
